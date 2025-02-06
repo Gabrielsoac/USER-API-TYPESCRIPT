@@ -31,6 +31,7 @@
     "@types/express": "^5.0.0",
     "@types/node": "^22.13.1",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "http-status-codes": "^2.3.0"
   }
 }
