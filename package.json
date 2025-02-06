@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsx src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Gabrielsoac/USER-API-TYPESCRIPT/issues"
   },
-  "homepage": "https://github.com/Gabrielsoac/USER-API-TYPESCRIPT#readme"
+  "homepage": "https://github.com/Gabrielsoac/USER-API-TYPESCRIPT#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.7.3"
+  }
 }
